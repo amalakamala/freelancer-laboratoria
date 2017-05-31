@@ -1,3 +1,154 @@
 /*
  * Estilos de tu proyecto
  */
+ * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;	
+}
+
+.menu{
+	height: 70px;
+	background-color: #212F3E; 		
+	color: white;
+	position: fixed;  
+	z-index: 9999;	
+}
+
+.logo{
+	float: left;
+	padding: 0 30px;
+}
+
+.los-link ul{
+	float: right;
+}
+
+.los-link li{
+	font-size: 0.93em;
+	list-style: none;	
+	display: inline-block;	
+	margin: 10px 0;
+	left: 630px;	
+}
+
+.los-link li a{
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px;	
+}
+
+.los-link li a:hover{
+	background-color: #1EB18A;
+	
+}
+
+.banner{
+	height: 600px;
+	background-color: #1EB18A;
+}
+
+.div-info, .div-about{
+	color: white;
+	text-align: center;
+	padding: 120px 0;
+}
+
+.div-info h1{
+	font-size: 60px;
+	margin: 10px;
+}
+
+.div-about h1{
+	font-size: 40px;
+	margin: 10px;
+}
+
+.div-info p{
+	font-weight: 300;
+}
+
+
+.portafolio, .contact{
+	height: 700px;
+	background-color: white;
+
+}
+
+.portafolio-row{
+	padding: 0 80px;
+}
+
+.titulo-portafolio{
+	text-align: center;
+	font-size: 20px;
+}
+
+.about{
+	height: 500px;
+	background-color: #1EB18A;
+}
+
+.about-texto{
+	padding: 0 250px;
+}
+
+
+.col-6 p{
+	text-align: justify;
+	font-weight: 300;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
+}
+
+.about-texto a{
+	background-color: #1EB18A;
+	border: 1.5px solid white;
+	border-radius: 6px;
+	padding: 10px;
+	margin-top: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.boton-about{
+	padding: 40px;
+}
+
+.div-contact{
+	text-align: center;
+}
+
+.contact-form{
+	padding: 10px 300px;
+}
+
+.contact-form input{
+	width: 500px;
+	height: 50px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 1 solid #CDCDCD;
+}
+
+#message{
+	height: 170px;
+}
+
+
+
+
+
+
+
+
+
+
