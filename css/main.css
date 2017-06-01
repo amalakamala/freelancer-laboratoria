@@ -28,8 +28,10 @@ body{
 	padding: 0 30px;
 }
 
-.los-link ul{
+.los-link nav{
 	float: right;
+	padding-top: 15px;
+	padding-right: 15px;
 }
 
 .los-link li{
