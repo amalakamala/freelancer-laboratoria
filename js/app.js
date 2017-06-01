@@ -88,7 +88,8 @@
  		}
  		if(message == ""){
 			document.getElementById("message").value = "· Ingrese su Mensaje";
- 		}else{
+ 		}
+ 		if(nombre != "" && email != "" && phone != "" && message != ""){
  			document.getElementById("name").value ="";
  			document.getElementById("email").value ="";
  			document.getElementById("phone").value ="";
