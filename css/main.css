@@ -352,10 +352,10 @@ hr.star-primary:after {
 
 .modal-completo{
 	width: 600px;
-	height: 700px;
+	height: 800px;
 	background-color: white; 
 	position: absolute;
-	top: 12%;
+	top: 32%;
 	left: 25%;
 	padding: 10px;
 }
@@ -375,18 +375,19 @@ hr.star-primary:after {
 	color: black;
 	position: absolute;
 	left: 35%;
+	top: 100px;
 }
 
 .estrella{
 	position: relative;
-	top: 6%;
+	top: 24%;
 	right: 2%;
 }
 
 .parrafo-modal{
 	width: 600px;
 	position: absolute;
-    top: 550px;
+    top: 700px;
     left: 25%;
 	text-align: center;
 }
@@ -399,7 +400,7 @@ hr.star-primary:after {
 	padding: 15px 15px;	
 	border-radius: 5px;
 	position: absolute;
-	top: 700px;
+	top: 850px;
     left: 45%;
 }
 
