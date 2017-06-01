@@ -28,33 +28,37 @@
 		<div class="div-info">
 			<img src="assets/images/profile.png" alt="Profile">
 			<h1>START BOOTSTRAP</h1>
-			<i class="fa fa-star" aria-hidden="true"></i>
+			<hr class="star-light">
 			<p>Web Developer - Graphic Artist - User Experience Designer</p>
 		</div>
 	</section>
 	<!-- Section Portafolio -->
-	<section class="portafolio">
+	<section id="portafolio">
 		<div class="container titulo-portafolio">
 			<h1 class="text-uppercase text-services mt-0">PORTAFOLIO</h1>
+			<hr class="star-primary">
 		</div>
 		<div class="row container portafolio-row"> <!-- Fila, no hay columnas sueltas -->
-			<div class="col-4"><img src="assets/images/portfolio/cabin.png" class="img-responsive" alt="cabin"></div>
-			<div class="col-4"><img src="assets/images/portfolio/cake.png" class="img-responsive" alt="cake"></div>	
-			<div class="col-4"><img src="assets/images/portfolio/circus.png" class="img-responsive" alt="circus"></div>			
+			<div class="col-4 caja"> 
+				<img src="assets/images/portfolio/cabin.png" class="img-responsive" alt="cabin"> 
+			</div>
+
+			<div class="col-4 caja"><img src="assets/images/portfolio/cake.png" class="img-responsive" alt="cake"></div>	
+			<div class="col-4 caja"><img src="assets/images/portfolio/circus.png" class="img-responsive" alt="circus"></div>			
 		
 		</div>
 		<div class="row container portafolio-row"> <!-- Fila, no hay columnas sueltas -->
-			<div class="col-4"><img src="assets/images/portfolio/game.png" class="img-responsive" alt="game"></div>
-			<div class="col-4"><img src="assets/images/portfolio/safe.png" class="img-responsive" alt="safe"></div>	
-			<div class="col-4"><img src="assets/images/portfolio/submarine.png" class="img-responsive" alt="submarine"></div>	
+			<div class="col-4 caja"><img src="assets/images/portfolio/game.png" class="img-responsive" alt="game"></div>
+			<div class="col-4 caja"><img src="assets/images/portfolio/safe.png" class="img-responsive" alt="safe"></div>	
+			<div class="col-4 caja"><img src="assets/images/portfolio/submarine.png" class="img-responsive" alt="submarine"></div>	
 		</div>
 	</section>
 	<!-- Section about -->
 	<section class="about">
 		<div class="div-about">
 			<h1>ABOUT</h1>
-			<i class="fa fa-star" aria-hidden="true"></i>
-			<div class="about-texto">
+			<hr class="star-light">
+			<div class="row about-texto">
 				<div class="col-6">
 					<p>Freelancer is a free bootstrap theme crated by Strart Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization</p>
 				</div>
@@ -71,17 +75,69 @@
 	<section class="contact">
 		<div class="div-contact">
 			<h1>CONTACT ME</h1>
-			<i class="fa fa-star" aria-hidden="true"></i>
+			<hr class="star-primary">
 			<div class="contact-form">
 				<form action="">
 					<input type="text" id="name" placeholder="Name">
 					<input type="text" id="email" placeholder="Email Address">
 					<input type="text" id="phone" placeholder="Phone Number">
 					<input type="text" id="message" placeholder="Message" >
+					<div class="row">
+                        <div class="el-boton col-xs-12">
+                            <a href="#" type="submit" class="boton">Send</a>
+                        </div>
+                    </div>
 				</form>				
 			</div>
 		</div>
 	</section>
+	<!-- Section Footer -->
+	<footer class="footer">
+		<div class="row pre-footer">
+			<div class="col-4">
+				<h3>LOCATION</h3>
+				<p>3481 Melrose Place</p>
+				<p>Beverly Hills, CA 90210</p>				
+			</div>	
+			<div class="col-4">
+				<h3>AROUND THE WEB</h3>
+				<ul class="lista-redes">
+					<li><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></li>
+					<li><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></li>
+					<li><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></li>
+					<li><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></li>
+					<li><i class="fa fa-dribbble fa-2x" aria-hidden="true"></i></li>
+				</ul>						
+			</div>	
+			<div class="col-4">
+				<h3>ABOUT FREELANCER</h3>
+				<p>Freelance is a free to use, open source</p>
+				<p>Bootstrap theme created by <a href="#">Start Bootstrap</a></p>							
+			</div>					
+		</div>
+		<div class="footer-copyright">
+			<p>Copyright Your Website 2017</p>
+		</div>				
+	</footer>
+
+			
+	<div id="img-proyecto-modal" class="hide">
+	
+		<div class="modal-completo">
+			<!-- 
+			<div class="close">X</div>
+			<div class="modal-dentro">
+				<h1>PROJECT TITLE</h1> 
+				<hr class="star-primary">
+				<img src="assets/images/portfolio/cabin.png" class="img-responsive" alt="cabin"> 
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi architecto id neque unde dolores eum itaque tempore ipsa veniam ducimus, laboriosam, maiores corrupti consequatur. Nulla rerum voluptas eveniet veritatis cumque?</p>
+			</div>	
+			-->			
+		</div>
+
+	</div>
+		
+
 
 
 	<!-- Enlaza aquí tu archivo JS -->
