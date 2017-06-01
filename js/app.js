@@ -47,8 +47,8 @@
 
  			close = document.createElement("div"); 
  			close.classList.add("close-img");
- 			icono = document.createElement("i");
- 			icono.setAttribute("class","fa fa-times-circle");
+ 			icono = document.createElement("img");
+ 			icono.setAttribute("src","assets/images/close.png");
  			icono.setAttribute("aria-hidden","true");
 
  			close.appendChild(icono);
